@@ -31,3 +31,6 @@ studybuddy-ai/
 ├── data/
 ├── assets/
 └── screenshots/
+So start 
+streamlit run app.py
+https://symmetrical-waddle-7j79j569w74364g-8501.app.github.dev/#study-buddy-ai
