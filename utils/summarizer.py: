@@ -1,0 +1,14 @@
+import ollama
+
+def summarize_text(text):
+    response = ollama.chat(
+        model="llama3",
+        messages=[
+            {
+                "role": "user",
+                "content": f"Summarize these study notes:\n\n{text}"
+            }
+        ]
+    )
+
+    return response["message"]["content"]
