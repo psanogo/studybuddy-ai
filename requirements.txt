@@ -3,3 +3,7 @@ ollama
 pypdf
 pandas
 sqlite-utils
+streamlit
+ollama
+pypdf
+pandas
